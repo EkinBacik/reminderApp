@@ -16,15 +16,15 @@ struct menu: View {
     var body: some View {
         VStack{
             HStack{
-        Image(systemName: image)
-            .font(.largeTitle)
+            Image(systemName: "calendar")
                 Spacer()
-        Text(count)
+            Text(count)
             }
+            .font(.largeTitle)
             HStack{
             Text(title)
-            }
-        }.background(Color.gray.opacity(0.2)).cornerRadius(4.5).padding()
+            }.font(.title)
+        }.background(Color.gray.opacity(0.2)).cornerRadius(5).padding()
     }
 }
 
