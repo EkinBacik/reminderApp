@@ -24,7 +24,7 @@ struct menu: View {
             HStack{
             Text(title)
             }.font(.title)
-        }.background(Color.gray.opacity(0.2)).cornerRadius(5).padding()
+        }.background(Color.blue.opacity(0.5)).cornerRadius(5).padding()
     }
 }
 

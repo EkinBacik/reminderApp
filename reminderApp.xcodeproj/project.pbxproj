@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		354AE80D26B2040D00A1FBFD /* uiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354AE80C26B2040D00A1FBFD /* uiList.swift */; };
-		357B424026B040F800FEA140 /* reminderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B423F26B040F800FEA140 /* reminderAppApp.swift */; };
+		354AE80F26B4400800A1FBFD /* reminderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354AE80E26B4400800A1FBFD /* reminderAppApp.swift */; };
 		357B424226B040F800FEA140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B424126B040F800FEA140 /* ContentView.swift */; };
 		357B424426B040F900FEA140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357B424326B040F900FEA140 /* Assets.xcassets */; };
 		357B424726B040F900FEA140 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357B424626B040F900FEA140 /* Preview Assets.xcassets */; };
@@ -37,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		354AE80C26B2040D00A1FBFD /* uiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiList.swift; sourceTree = "<group>"; };
+		354AE80E26B4400800A1FBFD /* reminderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderAppApp.swift; sourceTree = SOURCE_ROOT; };
 		357B423C26B040F800FEA140 /* reminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reminderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		357B423F26B040F800FEA140 /* reminderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderAppApp.swift; sourceTree = "<group>"; };
 		357B424126B040F800FEA140 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		357B424326B040F900FEA140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357B424626B040F900FEA140 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				357B426E26B0434F00FEA140 /* Search */,
-				357B423F26B040F800FEA140 /* reminderAppApp.swift */,
 				357B424126B040F800FEA140 /* ContentView.swift */,
+				354AE80E26B4400800A1FBFD /* reminderAppApp.swift */,
 				354AE80B26B203F000A1FBFD /* List */,
 				357B424326B040F900FEA140 /* Assets.xcassets */,
 				357B427126B0B08800FEA140 /* Menu view */,
@@ -293,8 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				357B424226B040F800FEA140 /* ContentView.swift in Sources */,
-				357B424026B040F800FEA140 /* reminderAppApp.swift in Sources */,
 				354AE80D26B2040D00A1FBFD /* uiList.swift in Sources */,
+				354AE80F26B4400800A1FBFD /* reminderAppApp.swift in Sources */,
 				357B427026B0B08400FEA140 /* menu.swift in Sources */,
 				357B426D26B0431100FEA140 /* searchTab.swift in Sources */,
 			);
